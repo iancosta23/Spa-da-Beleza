@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    padding: 16px;
+    background-color: rgb(141, 83, 93);
+    color: aqua;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+}
+
+header nav li a {
+    color: aqua;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container,
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section .container {
+    align-items: flex-start;
+}
+
+section {
+    padding: 24px 0;
+}
+
+section h2 {
+    margin-bottom: 16px;
+    color: rgb(141, 83, 93);
+}
+
+section p {
+    margin-bottom: 8px;
+}
+
+.store-front {
+    margin-right: 37px;
+}
+
+.social img {
+    height: 24px;
+}
+
+.social li {
+    display: inline;
+    margin-right: 8px;
+}
+
+.social li a {
+    text-decoration: none;
+}
+
+#contact .container {
+    display: block;
+}
+
+.contact-method {
+    display: flex;
+}
+
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+}
+
+form textarea {
+    resize: none;
+    height: 80px;
+}
+
+form button {
+    background-color: rgb(141, 83, 93);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: rgb(180, 125, 134);
+}
+
+footer {
+    background-color: rgb(141, 83, 93);
+    color: #fff;
+    padding: 16px 0;
+}
